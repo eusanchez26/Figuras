@@ -19,5 +19,10 @@ public class figuras {
         JOptionPane.showMessageDialog(null, "El area del triangulo es: " + area);
     }
     
-    
+    public void circulo(){
+        double radio, area, pi= 3.1416;
+        radio = Double.parseDouble(JOptionPane.showInputDialog("Digite rl radio del circulo: "));
+        area= pi * (radio * radio);
+        JOptionPane.showMessageDialog(null, "El area del circulo es: " + area);
+    }
 }
